@@ -3,15 +3,6 @@
 static const NSBundle *tweakBundle = [NSBundle bundleWithPath:@"/Library/Application Support/VKMe/Localizations.bundle"];
 #define LOCALIZED(str) [tweakBundle localizedStringForKey:str value:@"" table:nil]
 
-@interface SBIconView : NSObject
-- (NSString *)applicationBundleIdentifierForShortcuts;
-@end
-
-@interface SBSApplicationShortcutItem : NSObject
-- (void)setLocalizedTitle:(id)arg1;
-- (void)setType:(id)arg1;
-@end
-
 @interface VKAudioBackgroundStreamingManager : NSObject
 @end
 
