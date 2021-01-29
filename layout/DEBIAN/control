@@ -1,0 +1,11 @@
+Package: com.lizynz.vkmemore
+Name: VKMeMore
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: gsc.ipad
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Quick action for VK.me
+Maintainer: Lizynz <lizynz@ya.ru>
+Author: Lizynz <lizynz@ya.ru>
+Section: Tweaks
+
