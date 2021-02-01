@@ -1,8 +1,3 @@
-#import <substrate.h>
-
-static const NSBundle *tweakBundle = [NSBundle bundleWithPath:@"/Library/Application Support/VKMe/Localizations.bundle"];
-#define LOCALIZED(str) [tweakBundle localizedStringForKey:str value:@"" table:nil]
-
 @interface VKAudioBackgroundStreamingManager : NSObject
 @end
 
@@ -53,8 +48,8 @@ static const NSBundle *tweakBundle = [NSBundle bundleWithPath:@"/Library/Applica
     UIApplicationShortcutIcon *postIcon = [UIApplicationShortcutIcon iconWithTemplateImageName:@"write_outline_28"];
     UIApplicationShortcutIcon *photoIcon = [UIApplicationShortcutIcon iconWithTemplateImageName:@"picture_outline_28"];
     
-    UIMutableApplicationShortcutItem *vkPost = [[%c(UIMutableApplicationShortcutItem) alloc] initWithType:@"post" localizedTitle:LOCALIZED(@"post") localizedSubtitle:nil icon:postIcon userInfo:nil];
-    UIMutableApplicationShortcutItem *vkPhoto = [[%c(UIMutableApplicationShortcutItem) alloc] initWithType:@"photo" localizedTitle:LOCALIZED(@"photo") localizedSubtitle:nil icon:photoIcon userInfo:nil];
+    UIMutableApplicationShortcutItem *vkPost = [[%c(UIMutableApplicationShortcutItem) alloc] initWithType:@"post" localizedTitle:[[NSBundle mainBundle] localizedStringForKey:@"wall_new_post" value:@"" table:@"Localizable"] localizedSubtitle:nil icon:postIcon userInfo:nil];
+    UIMutableApplicationShortcutItem *vkPhoto = [[%c(UIMutableApplicationShortcutItem) alloc] initWithType:@"photo" localizedTitle:[[NSBundle mainBundle] localizedStringForKey:@"profile_info_add_photo" value:@"" table:@"Localizable"] localizedSubtitle:nil icon:photoIcon userInfo:nil];
 
     [[UIApplication sharedApplication] setShortcutItems: @[ vkPost, vkPhoto ]];
     
