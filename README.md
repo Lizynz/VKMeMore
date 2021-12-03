@@ -1,5 +1,16 @@
-# VKMeMore
-Add quick action for VK.me and a few more features
+# VKMeMore (iOS 13.x - 14.x)
+
+#### RU
+
+- Добавьте быстрое действие для VK Me и еще несколько функций
+- Добавлен .ipa с вшитым твиком
+- Файл .ipa можно установить при помощи Sideloadly или AltStore
+
+#### EN
+
+- Add quick action for VK Me and a few more features
+- Added .ipa with inject tweak (sideload)
+- The .ipa file can be installed using Sideloadly or AltStore
 
 ![Preview](/vkme.png)![Preview](/vkme1.png)
-###### VKMe tweak (iOS 13.x - 14.x tweak)
+###### Repo: lizynz.github.io
