@@ -1,4 +1,5 @@
 # VKMeMore (iOS 13.x - 14.x)
+###### Repo: https://lizynz.github.io
 
 #### RU
 
@@ -13,4 +14,4 @@
 - The .ipa file can be installed using Sideloadly or AltStore
 
 ![Preview](/vkme.png)![Preview](/vkme1.png)
-###### Repo: lizynz.github.io
+###### Download .ipa: https://disk.yandex.ru/d/-8CDXGmPuq9ndw 
