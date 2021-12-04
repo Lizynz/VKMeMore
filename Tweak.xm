@@ -2,7 +2,7 @@
 @end
 
 // Disable 30 min audio
-%hook VKAudioBackgroundStreamingManage
+%hook VKAudioBackgroundStreamingManager
 - (BOOL)canListenBackground {
     return YES;
 }
