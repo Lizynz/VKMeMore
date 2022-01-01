@@ -14,4 +14,4 @@
 - The .ipa file can be installed using Sideloadly or AltStore
 
 ![Preview](/vkme.png)![Preview](/vkme1.png)![Preview](/vkme02.png)
-###### Download .ipa: https://disk.yandex.ru/d/-8CDXGmPuq9ndw 
+###### Download .ipa: https://disk.yandex.ru/d/5QNSGZXoR3yZ6A 
