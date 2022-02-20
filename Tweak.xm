@@ -9,7 +9,7 @@
 %end
 
 // Hide Large title
-%hook DialogsController
+/*%hook DialogsController
 - (BOOL)VKMControllerMessengerSupportLargeTitle {
     return NO;
 }
@@ -37,43 +37,23 @@
 - (BOOL)VKMControllerMessengerSupportLargeTitle {
     return NO;
 }
-%end
+%end*/
 
 //Settings
 
 %hook _TtC8Milligan17MILToggleProvider
 
-- (BOOL)nativePictureInPictureEnabled { //Picture In Picture
+/*- (BOOL)nativePictureInPictureEnabled { // Картинка картинка вне приложения
     return YES;
-}
+}*/
 
 - (BOOL)pictureInPictureEnabled { //Picture In Picture
-    return YES;
-}
-
-- (BOOL)videoOnePlayerAirPlay { //AirPlay
     return YES;
 }
 
 - (BOOL)largeDocsUploadEnabled { //large docs upload ~ загрузка больших документов
     return YES;
 }
-
-/*- (BOOL)videoOnePlayerEnabledEverywhere { // Картинка картинка вне приложения, пока глючит + chromecast
-    return YES;
-}
-
-- (BOOL)chromecastEnabled { //chromecast
-    return YES;
-}
-
-- (BOOL)videoOnePlayerPreferHLS {
-    return YES;
-}
-
-- (BOOL)relocatesProfileMenu { //меню профиля сбоку
-    return YES;
-}*/
 
 %end
 
